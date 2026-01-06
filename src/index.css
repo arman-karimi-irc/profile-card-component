@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  /* Layout breakpoints */
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+  --breakpoint-min: 320px;
+  /* Colors */
+  --color-blue-600: hsl(185, 75%, 39%);
+  --color-navy-950: hsl(229, 23%, 23%);
+  --color-gray-500: hsl(227, 10%, 46%);
+  --color-gray-100: hsl(225, 10%, 92%);
+  /* Typography */
+  --font-family-kumbh: "Kumbh Sans", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size-body: 18px;
+}
